@@ -1,0 +1,269 @@
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+
+}
+
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        width: 90%;
+        height: 100%;
+    }
+    
+    .logo a{
+        font-size: 1.7rem;
+    }
+    .searchArea{
+        height: 33px;
+        width: 130px;
+        right: 50px;
+    }
+    .section1 img {
+        height: 270px;
+        padding-left: 00px;
+    }
+    .section1-button{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .section1-button h1, h2{
+        line-height: 70px;
+        font-size: 3rem;
+    }
+    .section1-button h1{
+        letter-spacing: 22px;
+    }
+
+    /*==== About Section====*/
+    .aboutBox h1{
+        font-size: 2.5rem;
+    }
+    .aboutBox h4{
+        font-size: 1.8rem;
+    }
+    
+
+
+
+}
+
+ 
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .logo a{
+        font-size: 2.3rem;
+    }
+    .searchArea{
+        height: 40px;
+        width: 140px;
+        right: 80px;
+
+    }
+    .section1 img {
+        height: 240px;
+    }
+    .section1-button{
+        align-items: flex-end;
+        padding-left: 40px;
+        margin-top: -35px;
+    }
+    .section1-button h1, h2{
+        line-height: 70px;
+        font-size: 2.8rem;
+    }
+    .section1-button h1{
+        letter-spacing: 22px;
+    }
+
+    /* === Icon ====*/
+    .iconArea {
+        left: 20px;
+    }
+    .iconArea a{
+        padding: 17px 12px;
+    }
+    /*=== Product Section ==== */
+    .productSection{
+        width: 80%;
+        margin-top: -30px;
+    }
+
+    /*== About =====*/
+    .about{
+        flex-direction: row;
+        margin: 10px auto;
+    }
+    .aboutBox img {
+        height: 400px;
+        margin-left: 30px;
+    }
+    .aboutBox h1{
+        font-size: 2rem;
+    }
+    .aboutBox h4{
+        font-size: 1.5rem;
+    }
+    .aboutBox p{
+        font-size: .8rem;
+    }
+
+}
+
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) 
+{
+/*--== Header Section Started ==--*/ 
+    .container{
+        margin: 50px 90px;
+    }
+    .logo{
+        left: 50px;
+    }
+    .logo a{
+        font-size: 1.3rem;
+    }
+    .searchArea{
+        height: 25px;
+         width: 120px;
+         right: 50px;
+    }
+
+    /*--== main Section Started ==--*/
+    .main{
+        flex-direction: column;
+    }
+    .section1 img {
+        height: 150px;
+        flex-wrap: wrap;
+    }
+    .section1-button{
+        margin: 10px 40px 20px 50px;
+    }
+    
+    .section1-button h1, h2{
+        line-height: 60px;
+        font-size: 2rem;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    
+    .section1-button h1{
+        letter-spacing: 15px;
+    }
+    .section1-button h2{
+        margin-left: -17px;
+    }
+    /*--== Icon Area ==---*/
+    .iconArea {
+        left: 15px;
+    }
+    .iconArea a{
+        padding: 15px 10px;
+    }
+
+
+    /*=== Product Section===*/
+    .productSection{
+        width: 75%;
+        margin-top: -30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .productSection > h3{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+    .productBox img{
+        height: 160px;
+    }
+    .productBox a{
+        font-size: .8rem;
+    }
+    .BuyBtn{
+        width: 110px;
+        height: 30px;
+    }
+
+
+    /*-=== About Section ===*/
+    .about{
+        flex-direction: column-reverse;
+        margin: 20px auto;
+    }
+    .aboutBox{
+        width: 100%;
+        font-family: sans-serif;
+    }
+    .aboutBox img {
+        height: 250px;
+        border: 1px solid gray transparent;
+        margin-bottom: 30px;
+    }
+    .aboutBox h1{
+        font-size: 2rem;
+    }
+    .aboutBox h4{
+        font-size: 1.5rem;
+    }
+    .aboutBox p{
+        font-size: .8rem;
+    }
+
+    .notification {
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto;
+    }
+    .notification h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .notificationInput{
+        width: 80%;
+        height: 40px;
+    }
+    .notificationButton{
+        width: 80px;
+        height: 30px;
+    }
+
+
+
+}
+ /* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .section1 img {
+    height: 200px;
+}
+.section1-button{
+    margin: 10px 40px 20px 50px;
+}
+
+.section1-button h1, h2{
+    line-height: 60px;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.section1-button h1{
+    letter-spacing: 17px;
+}
+.section1-button h2{
+    margin-left: -17px;
+}
+
+}
