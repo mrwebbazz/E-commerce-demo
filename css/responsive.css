@@ -58,21 +58,24 @@
 /* Tablet desktop :768px. */
 
 @media (min-width: 767px) and (max-width: 991px) {
+    .container {
+       margin: 50px 50px;
+    }
     .logo a{
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
     .searchArea{
         height: 40px;
         width: 140px;
         right: 80px;
 
+
     }
     .section1 img {
-        height: 240px;
+        height: 220px;
     }
     .section1-button{
-        align-items: flex-end;
-        padding-left: 40px;
+        align-items:center;
         margin-top: -35px;
     }
     .section1-button h1, h2{
@@ -125,20 +128,28 @@
 {
 /*--== Header Section Started ==--*/ 
     .container{
-        margin: 50px 50px;
+        margin: 20px 20px;
     }
     .logo{
-        left: 50px;
+        left: 20px;
+        top: 20px;
     }
     .logo a{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .searchArea{
-        height: 25px;
-         width: 110px;
-         right: 40px;
-         font-size: 12px;
+        height: 20px;
+         width: 100px;
+         right: 20px;
+         top: 20px;
+         font-size: 0.7rem;
 
+    }
+    .searchArea input{
+        width: 80px;
+        height: 20px;
+        font-size: 0.7rem;
+        padding: 0 5px;
     }
 
     /*--== main Section Started ==--*/
@@ -146,11 +157,11 @@
         flex-direction: column;
     }
     .section1 img {
-        height: 150px;
-        flex-wrap: wrap;
+        height: 200px;
     }
     .section1-button{
-        margin: 10px 40px 20px 50px;
+        margin-top: -50px;
+        margin-bottom: 50px;
     }
     
     .section1-button h1, h2{
